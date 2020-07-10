@@ -1,0 +1,40 @@
+body
+{
+ margin: 0;
+ font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.footer
+{
+ background-color: #232F3E;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+h1,h2,h3,h4
+{
+ color : white;
+ margin: 20px;
+ font-size: 16px;
+}
+
+a
+{
+ text-decoration-line: none;
+ color: white;
+}
+
+.grid-1,.grid-2,.grid-3,.grid-4
+{
+ display: grid;
+ margin:20px;
+ grid-auto-rows: 25px;
+ column-gap: 20px;
+ font-size: 13px;    
+}
+.info1,.info2,.info3,.info4
+{
+    display: block;
+}
+
