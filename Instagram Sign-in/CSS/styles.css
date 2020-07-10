@@ -1,0 +1,138 @@
+.content-wrap,.signup
+{
+    width: 350px;
+    height: 370px;
+    margin:10px auto;    
+    text-align: center;
+    border : 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h1
+{
+    font-family: "BillabongW00-Regular";
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.user,.password,.phno
+{
+    width: 80%;
+    height: 40px;
+    border : 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+.submit
+{
+    width: 80%;
+    height: 30px;
+    background-color: #0095f6;
+    border : 1px solid #0095f6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-top: 2px;
+
+}
+
+.optional
+{
+  display: block;
+  color: #8e8e8e;
+}
+
+hr
+{
+    color: #dadce0;
+    margin-top: 20px; 
+    width: 80%;
+}
+
+.optional p
+{
+  position: static;
+  margin-top: -18px;
+  width: 10%;
+  margin-left:160px;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 12px;
+}
+
+.fblogin
+{
+    font-size: 14px;
+/*    margin-top:-10px;*/
+    color: #00376b;
+    font-weight: normal;
+    padding-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.fblogin a
+{
+ color: #385185;
+ font-size: 14px;
+ font-weight: 550;
+ padding-left: 5px;
+ text-decoration-line: none;
+ padding-top: -5px
+}
+
+.fblogin img
+{
+   vertical-align: middle;
+}
+
+.forgotpwd
+{
+    
+    font-size: 12px;
+    color: #00376b;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+
+.signup p
+{
+    color: #262626;
+    font-weight: 100;   
+}
+
+.signup a
+{
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration-line: none;         
+}
+
+.signup
+{
+   height:60px; 
+ text-align: center;
+}
+
+.install
+{
+  color: #262626;
+  text-align: center;
+}
+
+h2,.fblogin,.forgotpwd,.signup,.submit,.user,.password,.phno
+{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;  
+}
